@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#000000"
+      />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:minHeight="90dp"
+            android:thumbTint="#FF0000"
+            android:trackTint="#FF0000"
+            />
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:progressTint="#FF0000"
+            android:thumbTint="#FF0000" />
+
+        <EditText
+            android:id="@+id/firstTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="1.0"
+            android:inputType="numberDecimal"
+            android:minWidth="70dp"
+            android:minHeight="48dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:minHeight="90dp"
+            android:thumbTint="#228B22"
+            android:trackTint="#228B22"
+            tools:ignore="DuplicateClickableBoundsCheck" />
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:progressTint="#228B22"
+            android:thumbTint="#228B22" />
+
+        <EditText
+            android:id="@+id/secondTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="1.0"
+            android:inputType="numberDecimal"
+            android:minWidth="70dp"
+            android:minHeight="48dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:minHeight="90dp"
+            android:thumbTint="#3944BC"
+            android:trackTint="#3944BC" />
+
+        <SeekBar
+            android:id="@+id/seekBar3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:progressTint="#3944BC"
+            android:thumbTint="#3944BC" />
+
+        <EditText
+            android:id="@+id/thirdTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="1.0"
+            android:inputType="numberDecimal"
+            android:minWidth="70dp"
+            android:minHeight="48dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="RESET"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/black"
+        app:cornerRadius="8dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="3dp"
+        />
+</LinearLayout>

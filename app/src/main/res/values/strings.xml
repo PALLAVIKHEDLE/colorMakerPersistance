@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">colorMaker</string>
+    <string name="app_name_dark">colorMaker in Dark Mode</string>
+</resources>
